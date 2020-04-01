@@ -33,7 +33,8 @@ def find_valid_calls(planeteer_calls)
     while calls_check < valid_calls.length do 
       if item == valid_calls[calls_check]
         item 
-      end 
+      end
+      calls_check += 1 
     end 
   end 
   return nil
